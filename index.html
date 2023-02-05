@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DGCARE BHOPAL</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+  <style>
+    /*  CSS Reset*/
+  body{
+  margin: 0px;
+  padding: 0px;
+  background: url('img/img1.jpg');
+  background-size: contain;
+  }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <!-- left box for logo  -->
+    <div class="left">
+      <div class="logo"><a href="#">&nbsp;DGCARE </a> &nbsp;<span class="logoo"><a href="#">BHOPAL</a></span></div>
+    </div>
+    <!-- center box for navigation  --> 
+    <div class="center">
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Our Doctors</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <form class="search" role="search">
+        <input class="s1" type="search" placeholder="Search our best....." aria-label="Search">
+        <button class="btn3" type="submit">Search</button>
+      </form>
+    </div>
+    <!-- right box for buttons  -->
+    <div class="right">
+      <button class="btn1">Call Us</button>
+      <button class="btn2">Email Us</button>
+    </div>
+  </header>
+    <!-- main body  -->
+    <div class="form1">
+      <form action="submit-appointment.php" method="post">
+        <div>
+          <label for="patient-name">Patient Name:</label>
+          <input type="text" id="patient-name" name="patient-name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div>
+          <label for="appointment-date">Appointment Date:</label>
+          <input type="date" id="appointment-date" name="appointment-date" required>
+        </div>
+        <div>
+          <label for="appointment-time">Appointment Time:</label>
+          <input type="time" id="appointment-time" name="appointment-time" required>
+        </div>
+        <div>
+          <label for="doctor">Doctor:</label>
+          <select id="doctor" name="doctor" required>
+            <option value="">Select a Doctor</option>
+            <option value="dr-jones">Dr. Jones</option>
+            <option value="dr-smith">Dr. Smith</option>
+            <option value="dr-lee">Dr. Lee</option>
+          </select>
+        </div>
+        <div>
+          <label for="reason">Reason for Visit:</label>
+          <textarea id="reason" name="reason" required></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+    <div class="start">
+      <h1 class="h1">Best</h1>
+      <h1 class="h2">Health Care</h1>
+      <h1 class="h3">In BHOPAL</h1>
+     <button class="hbtn">Learn More</button>
+    </div>
+    
+  <div class="container1">
+   
+  </div>
+
+  <div class="container2">
+    im c2
+  </div>
+
+  <!-- footer here  -->
+  <div class="footer-basic">
+    <footer>
+        <div class="social"><a href="#"><i class="icon ion-social-instagram">i</i></a><a href="#"><i class="icon ion-social-snapchat">fb</i></a><a href="#"><i class="icon ion-social-twitter">Yt</i></a><a href="#"><i class="icon ion-social-facebook">Ln</i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Apointments</a></li>
+            <li class="list-inline-item"><a href="#">About</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Centers</a></li>
+        </ul>
+        <p class="copyright">DGCARE © 2023</p>
+    </footer>
+</div>
+</body>
+</html>
